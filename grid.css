@@ -1,0 +1,33 @@
+
+
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-areas: 
+      "header header"
+      "sidebar content"
+      "sidebar footer";
+
+   
+  }
+  
+header {
+    grid-area: header;
+    background-color: #8ca0ff;
+  }
+  
+ nav {
+    grid-area: sidebar;
+    background-color: #ffa08c;
+  }
+  
+  content {
+    grid-area: content;
+    background-color: #ffff64;
+  }
+  footer {
+    grid-area: footer;
+    background-color: #8cffa0;
+  }

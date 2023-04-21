@@ -1,0 +1,44 @@
+header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+.title{
+
+    margin: 0;
+    padding: 0;
+
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+#container {
+    margin: 50px !important;
+    
+}
+.colum-form{
+    margin: 1rem;
+}
+body{
+    margin: 0;
+    padding: 16%;
+}
+.body-container {
+    border: 1px solid;
+}
+.col-form1 {
+    padding-top: 1rem;
+}
+
+
+/*styles grid-area*/
+
+
